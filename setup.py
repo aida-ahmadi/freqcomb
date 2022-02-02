@@ -28,6 +28,6 @@ setup(
     license='MIT',
     install_requires=['numpy>=1.15', 'pandas>1.0', 'matplotlib>=3.3.0',
                       'astropy>=3.1.2', 'astroquery>=0.4.2', 'seaborn',
-                      'sklearn', 'scikit-learn'],
+                      'scipy', 'scikit-learn'],
     python_requires='>=3.6'
 )
