@@ -20,6 +20,11 @@ cd freqcomb
 pip install .
 ```
 
+### Dependencies
+
+The dependencies are `numpy`, [`pandas`](https://pandas.pydata.org/), `matplotlib`, [`seaborn`](https://seaborn.pydata.org/), [`astropy`](https://www.astropy.org/), [`astroquery`](https://astroquery.readthedocs.io/en/latest/), [`scipy`](https://scipy.org/), and [`scikit-learn`](https://scikit-learn.org/). 
+
+
 ## Usage
 
 Check out this [example Jupyter Notebook](https://github.com/aida-ahmadi/freqcomb/blob/master/examples/lines_in_PPDs.ipynb).
