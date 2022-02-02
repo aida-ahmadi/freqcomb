@@ -27,6 +27,6 @@ The dependencies are `numpy`, [`pandas`](https://pandas.pydata.org/), `matplotli
 
 ## Usage
 
-Check out this [example Jupyter Notebook](https://github.com/aida-ahmadi/freqcomb/blob/master/examples/lines_in_PPDs.ipynb).
+Check out this [example Jupyter Notebook](https://nbviewer.org/github/aida-ahmadi/freqcomb/blob/master/examples/lines_in_PPDs.ipynb).
 
 More documentation to come...
