@@ -50,7 +50,7 @@ for mol_simple, mol_splat in mol_dict.items():
     fc.plot_freq_dist(frequencies=mol_df['Freq'],
                       bin_width=10.0,
                       title=mol_simple,
-                      show_fig=True,
+                      show_fig=False,
                       save_fig='{}_freq_dist'.format(mol_simple))
     # Combine transitions based on the natural breaking points in their frequency distribution
     # (using a kernel density estimator) and a desired threshold in km/s units. The results can
