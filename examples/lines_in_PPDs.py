@@ -6,7 +6,7 @@ mol_dict = {'CN': ' CN v = 0 ',
             'C15N': ' C15N ',
             'OH': ' OH v=0 ',
             'CO': ' CO v = 0 ',
-            '13CO+': ' 13CO+ v = 0 ',
+            '13CO': ' 13CO v = 0 ',
             'C18O': ' C18O ',
             'C17O': ' C17O ',
             'CS': ' CS v = 0 ',
@@ -40,8 +40,8 @@ df_list = []
 for mol_simple, mol_splat in mol_dict.items():
     print(mol_simple)
 
-    # Query Splatalogue for a given molecule, with E_up < 500 K and CDMS/JPL intensity > 10^-5
-    mytable = fc.query_splat(mol_splat, energy_max=500.0, intensity_lower_limit=-5)
+    # Query Splatalogue for a given molecule, with E_up < 500 K and CDMS/JPL intensity > 10^-6
+    mytable = fc.query_splat(mol_splat, energy_max=500.0, intensity_lower_limit=-6)
 
     # Convert the Astropy table to a minimal format as a pandas.DataFrame
     mol_df = fc.get_mini_df(mytable)

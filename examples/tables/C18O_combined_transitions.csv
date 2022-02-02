@@ -1,4 +1,5 @@
 Species,ChemicalName,QNs,Freq,log10_Aij,EU_K,CDMS/JPL Intensity
+C18O,Carbon Monoxide,1-0,109.7821734,-7.20302,5.26868,-5.0708
 C18O,Carbon Monoxide,2-1,219.5603568,-6.22103,15.8058,-4.1794
 C18O,Carbon Monoxide,3-2,329.3305453,-5.66324,31.61116,-3.6706
 C18O,Carbon Monoxide,4-3,439.0887631,-5.27331,52.684,-3.3231
